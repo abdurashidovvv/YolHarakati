@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/tab_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@drawable/tab_item_unselected_card">
+
+    <TextView
+        android:id="@+id/tab_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="16sp"
+        android:background="#005CA1"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="7dp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+</LinearLayout>
